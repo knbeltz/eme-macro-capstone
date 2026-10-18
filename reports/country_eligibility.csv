@@ -1,0 +1,13 @@
+country,iso3,complete_case_months,all_four_complete,research_cleared,reason,metadata_limitations
+Brazil,BRA,205,False,False,real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Mexico,MEX,205,False,False,real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Chile,CHL,240,True,False,,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Colombia,COL,205,False,False,real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Peru,PER,156,False,False,real_credit_growth_yoy: 84 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Argentina,ARG,25,False,False,real_fx: 203 missing months; real_credit_growth_yoy: 215 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed; Argentina CPI quality/breaks
+South Africa,ZAF,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Türkiye,TUR,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Poland,POL,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 60 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Malaysia,MYS,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Philippines,PHL,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed
+Thailand,THA,0,False,False,sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months,Country-specific credit perimeter/IP coverage review pending; EMBIG stripped definition unconfirmed

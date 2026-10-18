@@ -1,0 +1,8 @@
+{
+  "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN01130XM/json/1960-1/2026-10/ing",
+  "retrieved_at": "2026-10-18T20:46:21.109432+00:00",
+  "status": 200,
+  "final_url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN01130XM/json/1960-1/2026-10/ing",
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "85b51fca44379195b0ad133ece9327649219570518c40b8bd1b44e262adab0ff"
+}

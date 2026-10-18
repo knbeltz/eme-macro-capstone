@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,CPI,5.0.0/ARG.CPI._T.IX.M",
+  "retrieved_at": "2026-10-18T20:49:44.166492+00:00",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,CPI,5.0.0/ARG.CPI._T.IX.M",
+  "content_type": "text/csv",
+  "sha256": "e9173704c4cc08275a9eb70769fddbc61d351955bb15493985f97b03c3ee335f"
+}

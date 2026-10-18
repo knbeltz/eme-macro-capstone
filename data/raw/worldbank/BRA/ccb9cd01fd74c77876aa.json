@@ -1,0 +1,8 @@
+{
+  "url": "https://api.worldbank.org/v2/country/BRA/indicator/IPTOTSAKD?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "retrieved_at": "2026-10-18T20:45:58.068157+00:00",
+  "status": 200,
+  "final_url": "https://api.worldbank.org/v2/country/BRA/indicator/IPTOTSAKD?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "content_type": "application/json;charset=utf-8",
+  "sha256": "5032fc0717453169f3d9c715a713738ffb6253fddac9b3d5c7a0ef80b634d968"
+}

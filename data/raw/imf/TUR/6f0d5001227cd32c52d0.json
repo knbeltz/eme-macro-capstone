@@ -1,0 +1,9 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_NSRF,1.0.3/TUR.ODCS.NSRF_22D.XDC.M",
+  "retrieved_at": "2026-10-18T20:51:06.436450+00:00",
+  "accept": "text/csv",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_NSRF,1.0.3/TUR.ODCS.NSRF_22D.XDC.M",
+  "content_type": "text/csv",
+  "sha256": "b9993912a9fa03933a17477df99ce31e676b0ade5f16ffb7834ee057114ae6a4"
+}

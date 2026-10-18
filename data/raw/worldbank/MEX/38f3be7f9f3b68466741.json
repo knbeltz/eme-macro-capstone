@@ -1,0 +1,8 @@
+{
+  "url": "https://api.worldbank.org/v2/country/MEX/indicator/IPTOTSAKD?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "retrieved_at": "2026-10-18T20:46:03.001082+00:00",
+  "status": 200,
+  "final_url": "https://api.worldbank.org/v2/country/MEX/indicator/IPTOTSAKD?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "content_type": "application/json;charset=utf-8",
+  "sha256": "7d1da543135e3485de3dd57dce2f81e0bb64a7671fbb44a10d461eff4144e588"
+}

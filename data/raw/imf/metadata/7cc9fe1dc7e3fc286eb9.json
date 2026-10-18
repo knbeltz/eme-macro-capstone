@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/datastructure/IMF.STA/DSD_MFS_NSRF/1.0.1?references=all",
+  "retrieved_at": "2026-10-18T20:44:14.386910+00:00",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/datastructure/IMF.STA/DSD_MFS_NSRF/1.0.1?references=all",
+  "content_type": "application/vnd.sdmx.structure+xml;version=2.1",
+  "sha256": "cd51d5cbde901be7cb08922f616d3a19244961b8fac59892f563c6a18b0b0d14"
+}

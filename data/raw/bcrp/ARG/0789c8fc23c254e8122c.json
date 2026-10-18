@@ -1,0 +1,8 @@
+{
+  "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04710XD/json/1999-1-1/2019-12-31/ing",
+  "retrieved_at": "2026-10-18T20:48:20.682261+00:00",
+  "status": 200,
+  "final_url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04710XD/json/1999-1-1/2019-12-31/ing",
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "491d4969bacfc36ba659d35ae3bbbc22f6b67349dbb5e6e623b593e555cf44d2"
+}

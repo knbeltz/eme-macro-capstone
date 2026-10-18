@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,9.0.0/BRA.S13BONDSML_RT_PT_A_PT.M",
+  "retrieved_at": "2026-10-18T20:47:39.369425+00:00",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_IR,9.0.0/BRA.S13BONDSML_RT_PT_A_PT.M",
+  "content_type": "text/csv",
+  "sha256": "8d192069076178b6d66dea7cfdf116c4734d522dc7c1d5e9fb6af05ab0f5e80a"
+}

@@ -1,0 +1,13 @@
+iso3  complete_case_months  all_four_complete                                                                             reason
+ BRA                   205              False                                          real_credit_growth_yoy: 35 missing months
+ MEX                   205              False                                          real_credit_growth_yoy: 35 missing months
+ CHL                   240               True                                                                                   
+ COL                   205              False                                          real_credit_growth_yoy: 35 missing months
+ PER                   156              False                                          real_credit_growth_yoy: 84 missing months
+ ARG                    25              False            real_fx: 203 missing months; real_credit_growth_yoy: 215 missing months
+ ZAF                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months
+ TUR                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months
+ POL                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 60 missing months
+ MYS                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months
+ PHL                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months
+ THA                     0              False sovereign_spread_bp: 240 missing months; real_credit_growth_yoy: 35 missing months

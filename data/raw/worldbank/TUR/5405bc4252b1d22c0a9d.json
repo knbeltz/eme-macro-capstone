@@ -1,0 +1,8 @@
+{
+  "url": "https://api.worldbank.org/v2/country/TUR/indicator/DPANUSSPB?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "retrieved_at": "2026-10-18T20:46:26.110851+00:00",
+  "status": 200,
+  "final_url": "https://api.worldbank.org/v2/country/TUR/indicator/DPANUSSPB?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "content_type": "application/json;charset=utf-8",
+  "sha256": "82a38a64967de704c72d462172da8db8a327adc7611a4d573fe2dbab75c52fc2"
+}

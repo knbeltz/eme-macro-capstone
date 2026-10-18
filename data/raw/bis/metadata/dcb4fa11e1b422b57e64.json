@@ -1,0 +1,8 @@
+{
+  "url": "https://stats.bis.org/api/v2/structure/dataflow/BIS/all/latest",
+  "retrieved_at": "2026-10-18T20:47:38.032112+00:00",
+  "status": 200,
+  "final_url": "https://stats.bis.org/api/v2/structure/dataflow/BIS/all/latest",
+  "content_type": "application/json;charset=UTF-8",
+  "sha256": "fefd7a4ea5ec361751c05fda3c83172c29fd367964d4cfbc8f8e6c8d0432718e"
+}

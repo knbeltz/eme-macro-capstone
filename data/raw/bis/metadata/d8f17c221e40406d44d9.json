@@ -1,0 +1,9 @@
+{
+  "url": "https://stats.bis.org/api/v2/dataflow",
+  "retrieved_at": "2026-10-18T20:42:46.257738+00:00",
+  "status": 501,
+  "final_url": "https://stats.bis.org/api/v2/dataflow",
+  "content_type": "application/xml;charset=UTF-8",
+  "sha256": "a28083475c820e12aac9adcc2afdbbaa1acb4e3131dec0fa0ab9a88e8f85ed8d",
+  "error": "501 Server Error:  for url: https://stats.bis.org/api/v2/dataflow"
+}

@@ -1,0 +1,374 @@
+[
+  {
+    "iso3": "BRA",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "BRA",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "BRA",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "BRA",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 297
+  },
+  {
+    "iso3": "BRA",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 242
+  },
+  {
+    "iso3": "BRA",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "MEX",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MEX",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MEX",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MEX",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 297
+  },
+  {
+    "iso3": "MEX",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 242
+  },
+  {
+    "iso3": "MEX",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "CHL",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "CHL",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "CHL",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "CHL",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 345
+  },
+  {
+    "iso3": "CHL",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 117
+  },
+  {
+    "iso3": "CHL",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "COL",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "COL",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "COL",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "COL",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 296
+  },
+  {
+    "iso3": "COL",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 242
+  },
+  {
+    "iso3": "COL",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "PER",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PER",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PER",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PER",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 236
+  },
+  {
+    "iso3": "PER",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 242
+  },
+  {
+    "iso3": "PER",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "ARG",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ARG",
+    "variable": "domestic_cpi_gem",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ARG",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ARG",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 200
+  },
+  {
+    "iso3": "ARG",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 117
+  },
+  {
+    "iso3": "ARG",
+    "variable": "sovereign_spread_bp_monthly_catalog",
+    "status": "retrieved",
+    "rows": 242
+  },
+  {
+    "iso3": "ARG",
+    "variable": "sovereign_spread_bp",
+    "status": "retrieved",
+    "rows": 252
+  },
+  {
+    "iso3": "ZAF",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ZAF",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ZAF",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "ZAF",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 297
+  },
+  {
+    "iso3": "TUR",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "TUR",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "TUR",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "TUR",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 292
+  },
+  {
+    "iso3": "POL",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "POL",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "POL",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "POL",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 257
+  },
+  {
+    "iso3": "MYS",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MYS",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MYS",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "MYS",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 297
+  },
+  {
+    "iso3": "PHL",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PHL",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PHL",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "PHL",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 297
+  },
+  {
+    "iso3": "THA",
+    "variable": "nominal_fx",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "THA",
+    "variable": "domestic_cpi",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "THA",
+    "variable": "industrial_production",
+    "status": "retrieved",
+    "rows": 476
+  },
+  {
+    "iso3": "THA",
+    "variable": "nominal_private_credit",
+    "status": "retrieved",
+    "rows": 296
+  },
+  {
+    "iso3": "USA",
+    "variable": "us_cpi",
+    "status": "retrieved",
+    "rows": 476
+  }
+]

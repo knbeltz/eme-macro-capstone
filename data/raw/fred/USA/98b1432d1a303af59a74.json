@@ -1,0 +1,8 @@
+{
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS2%2CGS5%2CGS7%2CGS10&cosd=1999-01-01&coed=2019-12-31",
+  "retrieved_at": "2026-10-18T20:47:39.911064+00:00",
+  "status": 200,
+  "final_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS2%2CGS5%2CGS7%2CGS10&cosd=1999-01-01&coed=2019-12-31",
+  "content_type": "application/csv",
+  "sha256": "46097a29ff63ebc18cfa0a3363d72eb196b4dd7b3c80079095357eef8de3f28a"
+}

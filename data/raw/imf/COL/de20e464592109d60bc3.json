@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_ODC,10.0.0/COL.ODCORP_A_ACO_PS_ODCS.XDC.M",
+  "retrieved_at": "2026-10-18T20:46:14.975838+00:00",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_ODC,10.0.0/COL.ODCORP_A_ACO_PS_ODCS.XDC.M",
+  "content_type": "application/vnd.sdmx.data+csv;version=1.0.0",
+  "sha256": "d4c530538ff4a1388c85a9d81eab2c26c470e7097dd5854547c01735a1026b1c"
+}

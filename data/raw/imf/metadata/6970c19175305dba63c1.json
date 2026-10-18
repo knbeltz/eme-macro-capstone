@@ -1,0 +1,8 @@
+{
+  "url": "https://api.imf.org/external/sdmx/2.1/dataflow",
+  "retrieved_at": "2026-10-18T20:42:45.738616+00:00",
+  "status": 200,
+  "final_url": "https://api.imf.org/external/sdmx/2.1/dataflow",
+  "content_type": "application/vnd.sdmx.structure+xml;version=2.1",
+  "sha256": "d2a731df54659d9aff343c8c78a06f9508142bf6f1faae70060254e3c8a63fab"
+}

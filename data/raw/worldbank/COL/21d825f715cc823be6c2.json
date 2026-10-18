@@ -1,0 +1,8 @@
+{
+  "url": "https://api.worldbank.org/v2/country/COL/indicator/CPTOTNSXN?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "retrieved_at": "2026-10-18T20:46:13.720067+00:00",
+  "status": 200,
+  "final_url": "https://api.worldbank.org/v2/country/COL/indicator/CPTOTNSXN?source=15&date=1960M01%3A2026M10&format=json&per_page=1000&page=1",
+  "content_type": "application/json;charset=utf-8",
+  "sha256": "9894b3206beb7a26d371c1eb758a15283e56edcb1c072b9ed35b72d0bd47fc58"
+}
