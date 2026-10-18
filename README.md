@@ -4,7 +4,25 @@ This pipeline retrieves real observations and produces a **provisional research 
 
 ## Reproduce
 
-Python 3.11+ is required; this run used Python 3.14. No credentials are required by the selected endpoints.
+### Configure a FRED API key
+
+Get a key from your [FRED account](https://fredaccount.stlouisfed.org/apikeys), then run this command in your IDE terminal:
+
+```sh
+.venv/bin/python setup_fred.py
+```
+
+Paste the key at the hidden prompt and press Enter. It is saved in the project `.env`, with owner-only file permissions, and is excluded from Git. You can also copy `.env.example` to `.env` and paste the key after `FRED_API_KEY=` in your editor. Do not paste it into chat or put it directly in a shell command.
+
+```sh
+.venv/bin/python setup_fred.py --status
+```
+
+The status command reports whether a key is configured without showing it; it does not test authentication. `eme_pipeline.settings.get_fred_api_key()` reads the process `FRED_API_KEY` environment variable first and otherwise reads the project `.env`, so scripts do not require manually sourcing the file. Missing credentials return `None`. The U.S. adapter uses only the official FRED API. Public CSV fallback is disabled by the requested API-only policy. When no key is configured, live FRED requests are skipped, missing observations and a credential status are reported, and the remaining pipeline continues. Offline replay of already-cached responses does not require a key.
+
+### Run the EME pipeline
+
+Python 3.11+ is required; this run used Python 3.14. No credentials are required by the original EME endpoints; the U.S. extension requires your FRED key for live API requests.
 
 ```sh
 python3 -m venv .venv
@@ -35,6 +53,49 @@ Successful HTTP responses are cached. Re-running normally reuses them; it does n
 `discover.py` logs HTTP status, including failed discovery attempts; optional candidates are not all usable. Download failures cause a nonzero exit and are written to `reports/download_status.json`. A failed normalized series is quarantined as `.stale.csv` so it cannot silently enter the panel. HTTP 200 alone does not establish data availability: some IMF queries return only dataset metadata, with no observations.
 
 ## Files
+
+### U.S. extension
+
+After creating the EME panel and configuring your FRED key:
+
+```sh
+# Inspect and archive current FRED series metadata plus IMF U.S. credit candidates:
+.venv/bin/python discover_us.py
+# Retrieve observations, construct U.S. variables and merge into a separate file:
+.venv/bin/python us_data_finder.py
+# Reproduce the U.S. extension entirely from saved API responses:
+.venv/bin/python us_data_finder.py --offline
+# Alternatively run the existing builder and the U.S. extension together:
+.venv/bin/python data_finder.py --include-us --us-offline
+.venv/bin/python -m pytest -q
+```
+
+For a full live reproduction, run the original discovery/download/build commands above, followed by `discover_us.py` and `us_data_finder.py`. A clean environment needs a key; a saved-cache replay does not. Separate optional U.S. processing keeps the original EME-only workflow usable.
+
+The U.S. extension produces:
+
+- `data/processed/us_monthly_macro.csv`: exactly 240 ordered months, raw levels and requested log/growth transformations.
+- `data/processed/eme_us_monthly_panel.csv`: 2,880 rows, retaining every original EME column and appending the same U.S. observations to each country by month.
+- `reports/us_series_coverage.csv` and `reports/us_source_registry.csv`: actual returned coverage, gaps, source units, adjustment, API URLs, source-available dates and snapshot metadata.
+- `reports/us_credit_comparability.md`: proxy selection, lender/borrower differences and growth conventions.
+- `reports/us_credit_lag_coverage.csv`: the current and 12-month-lag inputs behind each growth observation.
+- `reports/us_missing_months.csv`, `reports/us_observation_flags.csv`, and `reports/us_structural_breaks.csv`: gaps and review flags without imputation or automatic corrections.
+- `reports/us_integration_integrity.json`: before/after SHA256 hashes of the original EME panel and merge row counts.
+- `reports/us_research_findings.md`: results and limitations of the retrieved U.S. series.
+
+`FEDFUNDS` is a monthly rate level in percent; it is not transformed into growth or identified as an exogenous shock. `PCE` is nominal expenditure in billions of dollars at a seasonally adjusted annual rate; `us_log_pce` is its natural log, not PCE inflation. Optional `PCEC96` supplies real expenditure at a seasonally adjusted annual rate in chained 2017 dollars in this snapshot; it is retained separately. The actual returned PCEC96 sample starts January 2007, leaving 84 target months missing. `INDPRO` is the seasonally adjusted total industrial production index (2017=100 in the inspected metadata); original index levels and logs are retained.
+
+Credit is the monthly H.8 **LOANS proxy**, not total bank credit and not a certified private-nonfinancial aggregate. IMF's tested same-aggregate U.S. request returned metadata without observations. Weekly `TOTLL` and `TOTBKCR` are not silently converted to monthly; documented monthly counterparts are `LOANS` and `LOANINV`. Other downloaded monthly components are diagnostic alternatives. The selected proxy and all of the required core FRED inputs cover 2000–2019, including sufficient 1999 history for growth in January 2000. See the comparability report before modeling.
+
+U.S. primary credit growth uses the requested **100 times a 12-month log difference**. The original EME pipeline uses an arithmetic percentage change. Optional `us_credit_growth_yoy_pct` matches that arithmetic convention. U.S. CPIAUCSL is seasonally adjusted; EME domestic CPI is not. In the combined panel FRED CPI is called `us_credit_cpi`, preserving the original EME `us_cpi` (World Bank GEM CPI for bilateral RER). No original EME observation is overwritten.
+
+FRED metadata and observations are saved under `data/raw/fred_api/USA`. Original series notes, source history bounds and last-updated/realtime dates are preserved. Downloads use current revised historical observations at their saved API snapshot, **not historical real-time vintages**. No VAR, shock identification, automatic differencing or detrending is performed. The final Beltrán (2025) definitions have not been fully reconciled.
+
+Credential parameters are redacted before saving request manifests, cache keys, errors or any echoed response text. The nonsecret request parameters remain reproducible; users supply their own `FRED_API_KEY` on the wire. Successful responses are cached, including their snapshot dates; use a separate data-vintage copy to refresh them. The original no-key FRED graph downloads from the initial EME benchmark exploration remain archived but are **not used by the API-only U.S. extension**.
+
+Primary documentation: [FRED API](https://fred.stlouisfed.org/docs/api/fred/), [FRED observation endpoint](https://fred.stlouisfed.org/docs/api/fred/series_observations.html), [H.8 methodology](https://www.federalreserve.gov/releases/h8/about.htm), [H.8 historical notes](https://www.federalreserve.gov/releases/h8/h8notes.htm).
+
+### Original EME outputs
 
 - `data/raw/{provider}/{country}/`: exact response bytes (`.body`) and matching JSON manifest with exact request URL, retrieval timestamp, HTTP status, hash, and errors. Catalogs live under `metadata/`. Request parameters include pagination. No secrets are stored.
 - `data/normalized/`: replayable intermediate CSVs retaining provider attributes where returned. Dates outside the target sample are retained for audits and lag construction.

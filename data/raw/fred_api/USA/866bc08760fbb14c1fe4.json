@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=PCE&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:31.774409+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=PCE&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "baa5fe37d621cb5e229041486b21038e62fa95fa5ce6b5afd6ed9c10441aafd7",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

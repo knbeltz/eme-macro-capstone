@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=CONSUMER&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:34.578284+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=CONSUMER&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "b6a1fcf0ba1c4f7c470865feccdd2672e7dda5334ba49b403a8c6d700946e4ed",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

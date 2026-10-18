@@ -1,0 +1,68 @@
+[
+  {
+    "variable": "us_credit_imf_candidate",
+    "series_id": "USA.ODCORP_A_ACO_PS_ODCS.XDC.M",
+    "status": "metadata_only_no_observations",
+    "error": "HTTP response contains dataset metadata, no observation rows. Historical availability not established."
+  },
+  {
+    "variable": "us_federal_funds_rate",
+    "series_id": "FEDFUNDS",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_pce_nominal",
+    "series_id": "PCE",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_pce_real",
+    "series_id": "PCEC96",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_industrial_production",
+    "series_id": "INDPRO",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_cpi",
+    "series_id": "CPIAUCSL",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_credit_loans_h8",
+    "series_id": "LOANS",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_credit_ci_h8",
+    "series_id": "BUSLOANS",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_credit_consumer_h8",
+    "series_id": "CONSUMER",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_credit_real_estate_h8",
+    "series_id": "REALLN",
+    "status": "retrieved",
+    "error": ""
+  },
+  {
+    "variable": "us_total_bank_credit_h8",
+    "series_id": "LOANINV",
+    "status": "retrieved",
+    "error": ""
+  }
+]

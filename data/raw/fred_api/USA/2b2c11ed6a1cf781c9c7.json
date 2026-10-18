@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series/observations?series_id=PCEC96&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:28:13.535972+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series/observations?series_id=PCEC96&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "1df8a9538acd5db934f7a58b286ead85e31f39e2c2e0959723e0599d45fdb95c",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

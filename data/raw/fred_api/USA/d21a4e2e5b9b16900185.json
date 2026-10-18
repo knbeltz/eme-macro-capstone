@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CONSUMER&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:28:16.293171+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series/observations?series_id=CONSUMER&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "a086857dd5607d256ff337e0c0f3ec6b3b9da4293a31cfb732a4ba49db2fa5c6",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

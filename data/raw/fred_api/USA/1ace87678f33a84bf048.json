@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=CPIAUCSL&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:33.166126+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=CPIAUCSL&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "be7d9b4ce4860ab78f36e054fdb6f9a1f6370a1368cac8cadc21e2c6a991cca8",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

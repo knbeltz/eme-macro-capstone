@@ -1,6 +1,7 @@
 """Build the requested panel and audit reports from retrieved observations.
 
-Run download.py first. This command performs no network access.
+Run download.py first. The EME-only build performs no network access.
+--include-us enables the optional U.S. API extension; --us-offline replays its cache.
 """
 import argparse
 import json
@@ -63,6 +64,10 @@ def metadata(iso,var):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--include-us',action='store_true',help='Also build the separate U.S. and EME–U.S. panels')
+    parser.add_argument('--us-offline',action='store_true',help='Use only cached responses for the optional U.S. extension')
+    args=parser.parse_args()
     panel=[]; audits=[]; missing=[]; registry=[]; eligibility=[]; lag_rows=[]; scenarios=[]; flags=[]
     for iso,country in COUNTRIES.items():
         f=pd.DataFrame(index=EXTENDED)
@@ -124,5 +129,9 @@ def main():
         pd.DataFrame(rows).to_csv(f'reports/{name}.csv',index=False)
     pd.DataFrame(flags,columns=['iso3','variable','date','flag','ratio','interpretation']).to_csv('reports/observation_flags.csv',index=False)
     print(pd.DataFrame(eligibility)[['iso3','complete_case_months','all_four_complete','reason']].to_string(index=False))
+    if args.include_us:
+        from eme_pipeline.http import Client
+        from eme_pipeline.us import build
+        build(Client(offline=args.us_offline))
 
 if __name__=='__main__': main()

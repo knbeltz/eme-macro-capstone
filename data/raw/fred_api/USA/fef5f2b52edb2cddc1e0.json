@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=LOANINV&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:36.756708+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=LOANINV&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "c3766eb10561f43786263b4f23dee8950a68f4a796b7c0034341623c42a8d35a",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

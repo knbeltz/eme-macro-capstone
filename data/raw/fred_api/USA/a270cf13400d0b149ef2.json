@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=FEDFUNDS&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:31.234428+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=FEDFUNDS&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "e3d5908605201db954137b2e1fb34a6a829b9de198a5904f2fdb6760794a66d3",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

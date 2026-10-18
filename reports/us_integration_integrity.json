@@ -1,0 +1,12 @@
+{
+  "eme_path": "data/processed/eme_monthly_panel.csv",
+  "original_eme_sha256": "30bbbdfc90d9417f0f6d322c20c0961a3c9857957636525d9288356b5021a112",
+  "after_eme_sha256": "30bbbdfc90d9417f0f6d322c20c0961a3c9857957636525d9288356b5021a112",
+  "original_eme_unchanged": true,
+  "eme_rows": 2880,
+  "combined_rows": 2880,
+  "us_months": 240,
+  "credit_series_id": "LOANS",
+  "credit_measure": "H.8 commercial-bank loans and leases proxy; not harmonized private-sector credit",
+  "combined_cpi_rule": "Original EME us_cpi retained; CPIAUCSL appended as us_credit_cpi"
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series/observations?series_id=LOANS&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:28:15.275010+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series/observations?series_id=LOANS&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "f9b708ebec554c44ce35085017b1060e469b2287b923aec1fdeb5c5d5c259fc3",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

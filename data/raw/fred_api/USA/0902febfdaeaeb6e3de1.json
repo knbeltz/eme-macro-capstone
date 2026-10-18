@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=INDPRO&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:32.713385+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=INDPRO&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "b9c97e34abb01ddfb5d9d95a8b5c3998eb03889cd0013aaad11b7d8ee1225e64",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

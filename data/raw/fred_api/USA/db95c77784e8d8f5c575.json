@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series?series_id=TOTBKCR&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:23:35.804210+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series?series_id=TOTBKCR&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "0425e90d68f6eab9091879febd3c4a78fcfb61d20887b3b3b2dd9af23b052b82",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}

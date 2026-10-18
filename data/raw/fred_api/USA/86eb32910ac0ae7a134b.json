@@ -1,0 +1,12 @@
+{
+  "url": "https://api.stlouisfed.org/fred/series/observations?series_id=REALLN&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=%5BREDACTED%5D&file_type=json",
+  "retrieved_at": "2026-10-18T23:28:17.613270+00:00",
+  "accept": "*/*",
+  "status": 200,
+  "final_url": "https://api.stlouisfed.org/fred/series/observations?series_id=REALLN&observation_start=1999-01-01&observation_end=2019-12-31&units=lin&sort_order=asc&limit=1000&offset=0&api_key=[REDACTED]&file_type=json",
+  "content_type": "application/json; charset=UTF-8",
+  "sha256": "8e3ac9256e01867a405fccbe7e66c283ea1a0f48f59799db4e011df51e99cd8c",
+  "credential_parameters_redacted": [
+    "api_key"
+  ]
+}
