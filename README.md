@@ -111,6 +111,18 @@ Primary documentation: [FRED API](https://fred.stlouisfed.org/docs/api/fred/), [
 - `reports/observation_flags.csv`: adjacent raw-series changes above 100% or below -50%, flagged for review without deleting observations. Economic movements can trigger these flags; they do not prove a break.
 - `reports/research_findings.md`: the seven requested research conclusions, with unresolved work explicit.
 
+### USMPD FF4 extension
+
+```sh
+.venv/bin/python ff4_data_finder.py "/path/to/USMPD (1).xlsx"
+```
+
+Imports `Date` and `FF4` from **Monetary Events** (the combined statement/press-conference window; statement window when there is no press conference). FF4 is already an event-window interest-rate change, in **percentage points**, according to the supplied workbook's README. The source workbook is archived under `data/raw/usmpd/USMPD.xlsx`, with its SHA256 and calculation definitions in `reports/us_ff4_source.json`; all source event dates are retained in `data/normalized/USA/usmpd_ff4_events.csv`.
+
+`data/processed/us_ff4_monthly.csv` contains 240 months for 2000–2019. `us_ff4_monthly_change_pp` sums the event changes within each month. `us_ff4_mom_change_pp` is that monthly total minus the previous month's total (using December 1999 for January 2000). These are distinct measures: the latter is a change in the monthly event total, not a futures-rate level change. No-event months have a zero total; months with any missing event FF4 remain missing. Event counts and observed FF4 counts accompany both measures. No percentage growth or logarithm is applied.
+
+The importer also appends these columns by month to the existing `us_monthly_macro.csv` and final `eme_us_monthly_panel.csv`, preserving their rows and existing values. Re-running the U.S. builder retains the extension when the normalized FF4 source exists. To refresh FF4 from a new workbook, rerun the importer. The EME-only file remains unchanged.
+
 ## Source selection and transformations
 
 **Exchange rates:** World Bank GEM source 15, `DPANUSSPB`, was discovered in the live catalog. It is new local currency per USD, period average, with earlier observations expressed in the new currency. `real_fx = nominal_fx * us_cpi / domestic_cpi`, and `log_real_fx = ln(real_fx)`. This is bilateral USD real FX, not REER. A higher value denotes depreciation under this quotation. CPI base constants make RER levels arbitrary across countries; use within-country logs/changes or an explicitly documented rebasing for comparisons. Do not interpret cross-country levels as purchasing-power parity.

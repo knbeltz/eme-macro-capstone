@@ -222,6 +222,10 @@ def build(client, output_root=Path('.')):
     sample.insert(0,'date',sample.index.astype(str))
     sample=sample.reset_index(drop=True)
     sample=sample[PRIMARY_COLUMNS+[col for col in sample if col not in PRIMARY_COLUMNS]]
+    from .ff4 import saved_monthly, append_ff4
+    ff4 = saved_monthly(root)
+    if ff4 is not None:
+        sample = append_ff4(sample, ff4)
     combined=merge_us(eme,sample)
     sample.to_csv(processed/'us_monthly_macro.csv',index=False)
     combined.to_csv(processed/'eme_us_monthly_panel.csv',index=False)

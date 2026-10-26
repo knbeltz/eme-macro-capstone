@@ -1,0 +1,11 @@
+{
+  "source_file": "data/raw/usmpd/USMPD.xlsx",
+  "sha256": "f02bfcbf80cf597548d4fccb5a80b30cb1f4373a7d50e26fd1def097d43df1aa",
+  "sheet": "Monetary Events",
+  "source_column": "FF4",
+  "units": "percentage points",
+  "monthly_rule": "Sum event FF4 changes; no-event months zero; any missing event makes monthly total missing",
+  "mom_rule": "Monthly total minus previous calendar month total; December 1999 included for January 2000",
+  "sample": "2000-01 through 2019-12",
+  "source_event_count": 279
+}
