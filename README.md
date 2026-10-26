@@ -54,6 +54,8 @@ Successful HTTP responses are cached. Re-running normally reuses them; it does n
 
 ## Files
 
+See the [data and sources overview](reports/data_and_sources_overview.md) for the variable dictionary, country-by-country coverage, U.S. and FF4 definitions, and source-file locations.
+
 ### U.S. extension
 
 After creating the EME panel and configuring your FRED key:
