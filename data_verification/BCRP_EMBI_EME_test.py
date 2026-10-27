@@ -45,7 +45,7 @@ def write_csv(path, columns, rows):
 
 
 def main():
-    out = Path(__file__).parent / 'bcrp_output'
+    out = Path(__file__).resolve().parent / 'test_data_output' / 'bcrp_output'
     (out / 'raw_daily').mkdir(parents=True, exist_ok=True)
     dates = [f'{year}-{month:02}' for year in range(2000, 2020) for month in range(1, 13)]
     codes = list(CODES.values())

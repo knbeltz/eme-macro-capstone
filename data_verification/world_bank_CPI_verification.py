@@ -72,7 +72,7 @@ def write_csv(path, fields, rows):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent / "gem_output")
+    parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent / "test_data_output" / "gem_output")
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
 

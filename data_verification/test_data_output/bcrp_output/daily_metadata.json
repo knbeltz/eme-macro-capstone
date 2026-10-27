@@ -1,0 +1,39 @@
+{
+  "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04711XD-PD04713XD-PD38581XD-PD04715XD-PD04709XD-PD04710XD/json/2000-1-1/2019-12-31/esp",
+  "retrieved_utc": "2026-10-27T17:14:33.401258+00:00",
+  "series": {
+    "Peru": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG Perú (pbs)",
+      "dec": "0"
+    },
+    "Argentina": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG Argentina (pbs)",
+      "dec": "0"
+    },
+    "Brazil": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG Brasil (pbs)",
+      "dec": "0"
+    },
+    "Mexico": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG México (pbs)",
+      "dec": "0"
+    },
+    "Colombia": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG Colombia (pbs)",
+      "dec": "0"
+    },
+    "Chile": {
+      "name": "Tasas de interés: EMBIG (variación en pbs) - Spread - EMBIG Chile (pbs)",
+      "dec": "0"
+    }
+  },
+  "codes": {
+    "Brazil": "PD04711XD",
+    "Mexico": "PD04713XD",
+    "Chile": "PD38581XD",
+    "Colombia": "PD04715XD",
+    "Peru": "PD04709XD",
+    "Argentina": "PD04710XD"
+  },
+  "method": "Unweighted arithmetic mean of nonmissing BCRP daily spread levels; no forward fill; eight decimal places in output."
+}

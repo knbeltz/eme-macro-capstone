@@ -1,0 +1,10 @@
+{
+  "retrieved_at_utc": "2026-10-27T17:14:32.469800+00:00",
+  "data_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,MFS_ODC/BRA+MEX+CHL+COL+PER+ARG+ZAF+TUR+POL+MYS+PHL+THA.ODCORP_A_ACO_PS_ODCS.XDC.M?startPeriod=2000-01&endPeriod=2019-12",
+  "metadata_url": "https://api.imf.org/external/sdmx/2.1/dataflow/IMF.STA/MFS_ODC/latest?references=all",
+  "dataset": "IMF.STA:MFS_ODC",
+  "indicator": "ODCORP_A_ACO_PS_ODCS",
+  "value_handling": "Exact OBS_VALUE strings; no scale multiplication or division.",
+  "missing_handling": "Blank cells; no interpolation or substitute series.",
+  "interpretation": "Claims on private sector (ODCS), expressed in domestic currency; not an index."
+}

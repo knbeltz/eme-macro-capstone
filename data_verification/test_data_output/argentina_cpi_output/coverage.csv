@@ -1,0 +1,2 @@
+series,requested_start,requested_end,expected_months,available_months,missing_months,first_available_in_window,last_available_in_window,first_available_full_series,last_available_full_series,full_series_observations,starts_december_2016,observations_before_december_2016,source_url,retrieved_at_utc
+ARG.CPI._T.IX.M,2000-01,2019-12,240,37,203,2016-12,2019-12,2016-12,2026-08,117,True,0,https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.STA/CPI/+/ARG.CPI._T.IX.M,2026-10-27T17:14:30.887434+00:00

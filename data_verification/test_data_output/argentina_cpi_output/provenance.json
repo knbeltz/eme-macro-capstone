@@ -1,0 +1,31 @@
+{
+  "coverage": {
+    "series": "ARG.CPI._T.IX.M",
+    "requested_start": "2000-01",
+    "requested_end": "2019-12",
+    "expected_months": 240,
+    "available_months": 37,
+    "missing_months": 203,
+    "first_available_in_window": "2016-12",
+    "last_available_in_window": "2019-12",
+    "first_available_full_series": "2016-12",
+    "last_available_full_series": "2026-08",
+    "full_series_observations": 117,
+    "starts_december_2016": true,
+    "observations_before_december_2016": 0,
+    "source_url": "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.STA/CPI/+/ARG.CPI._T.IX.M",
+    "retrieved_at_utc": "2026-10-27T17:14:30.887434+00:00"
+  },
+  "structure_links": [
+    {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IMF.STA:CPI(5.0.0)",
+      "title": "Dataflow"
+    },
+    {
+      "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.STA:DSD_CPI(5.0.0)",
+      "title": "DataStructureDefinition"
+    }
+  ],
+  "scope": "Exact series only; absence does not establish absence in other IMF series.",
+  "missing_policy": "Blank values; no interpolation or splicing."
+}

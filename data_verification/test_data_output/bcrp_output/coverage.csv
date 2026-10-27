@@ -1,0 +1,13 @@
+country,first_month,last_month,observations,missing_months,series_code,method
+Brazil,2000-01,2019-12,240,0,PD04711XD,Mean of available daily levels
+Mexico,2000-01,2019-12,240,0,PD04713XD,Mean of available daily levels
+Chile,2000-01,2019-12,240,0,PD38581XD,Mean of available daily levels
+Colombia,2000-01,2019-12,240,0,PD04715XD,Mean of available daily levels
+Peru,2000-01,2019-12,240,0,PD04709XD,Mean of available daily levels
+Argentina,2000-01,2019-12,240,0,PD04710XD,Mean of available daily levels
+South Africa,,,0,240,,No BCRP country EMBIG series found
+Turkey,,,0,240,,No BCRP country EMBIG series found
+Poland,,,0,240,,No BCRP country EMBIG series found
+Malaysia,,,0,240,,No BCRP country EMBIG series found
+Philippines,,,0,240,,No BCRP country EMBIG series found
+Thailand,,,0,240,,No BCRP country EMBIG series found

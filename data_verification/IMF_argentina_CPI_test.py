@@ -76,7 +76,7 @@ def write_csv(path, rows):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path,
-                        default=Path(__file__).resolve().parent / "argentina_cpi_output")
+                        default=Path(__file__).resolve().parent / "test_data_output" / "argentina_cpi_output")
     args = parser.parse_args()
     payload = fetch()
     retrieved = datetime.now(timezone.utc).isoformat()

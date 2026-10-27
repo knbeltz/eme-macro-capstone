@@ -54,7 +54,7 @@ def write_csv(path, fields, rows):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output-dir', type=Path,
-                   default=Path(__file__).resolve().parent / 'imf_odc_output')
+                   default=Path(__file__).resolve().parent / 'test_data_output' / 'imf_odc_output')
     args = p.parse_args()
     out = args.output_dir
     out.mkdir(parents=True, exist_ok=True)

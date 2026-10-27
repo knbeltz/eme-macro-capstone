@@ -1,0 +1,1439 @@
+{
+  "meta": {},
+  "data": {
+    "dataSets": [
+      {
+        "structure": 0,
+        "action": "Replace",
+        "series": {
+          "0:0:0:0:0": {
+            "attributes": [
+              0,
+              null,
+              0,
+              "2016M12",
+              "true"
+            ],
+            "observations": {
+              "0": [
+                "100",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "1": [
+                "101.5859",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "2": [
+                "103.6859",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "3": [
+                "106.1476",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "4": [
+                "108.9667",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "5": [
+                "110.5301",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "6": [
+                "111.8477",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "7": [
+                "113.7852",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "8": [
+                "115.3819",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "9": [
+                "117.5719",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "10": [
+                "119.3528",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "11": [
+                "120.994",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "12": [
+                "124.7956",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "13": [
+                "126.9887",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "14": [
+                "130.0606",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "15": [
+                "133.1054",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "16": [
+                "136.7512",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "17": [
+                "139.5893",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "18": [
+                "144.8053",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "19": [
+                "149.2966",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "20": [
+                "155.1034",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "21": [
+                "165.2383",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "22": [
+                "174.1473",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "23": [
+                "179.6388",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "24": [
+                "184.2552",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "25": [
+                "189.6101",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "26": [
+                "196.7501",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "27": [
+                "205.9571",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "28": [
+                "213.0517",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "29": [
+                "219.5691",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "30": [
+                "225.537",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "31": [
+                "230.494",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "32": [
+                "239.6077",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "33": [
+                "253.7102",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "34": [
+                "262.0661",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "35": [
+                "273.2158",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "36": [
+                "283.4442",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "37": [
+                "289.8299",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "38": [
+                "295.666",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "39": [
+                "305.5515",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "40": [
+                "310.1243",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "41": [
+                "314.9087",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "42": [
+                "321.9738",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "43": [
+                "328.2014",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "44": [
+                "337.0632",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "45": [
+                "346.6207",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "46": [
+                "359.657",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "47": [
+                "371.0211",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "48": [
+                "385.8826",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "49": [
+                "401.5071",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "50": [
+                "415.8595",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "51": [
+                "435.8657",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "52": [
+                "453.6503",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "53": [
+                "468.725",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "54": [
+                "483.6049",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "55": [
+                "498.0987",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "56": [
+                "510.3942",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "57": [
+                "528.4968",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "58": [
+                "547.0802",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "59": [
+                "560.9184",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "60": [
+                "582.4575",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "61": [
+                "605.0317",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "62": [
+                "633.4341",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "63": [
+                "676.0566",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "64": [
+                "716.9399",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "65": [
+                "753.147",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "66": [
+                "793.0278",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "67": [
+                "851.761",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "68": [
+                "911.1316",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "69": [
+                "967.3076",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "70": [
+                "1028.706",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "71": [
+                "1079.2787",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "72": [
+                "1134.5875",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "73": [
+                "1202.979",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "74": [
+                "1282.7091",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "75": [
+                "1381.1601",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "76": [
+                "1497.2147",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "77": [
+                "1613.5895",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "78": [
+                "1709.6115",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "79": [
+                "1818.0838",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "80": [
+                "2044.2832",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "81": [
+                "2304.9242",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "82": [
+                "2496.273",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "83": [
+                "2816.0628",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "84": [
+                "3533.1922",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "85": [
+                "4261.5324",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "86": [
+                "4825.7881",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "87": [
+                "5357.0929",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "88": [
+                "5830.2271",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "89": [
+                "6073.7165",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "90": [
+                "6351.7",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "91": [
+                "6607.7",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "92": [
+                "6883.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "93": [
+                "7122.2",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "94": [
+                "7314",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "95": [
+                "7491.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "96": [
+                "7694",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "97": [
+                "7864.1",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "98": [
+                "8053",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "99": [
+                "8353.3",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "100": [
+                "8585.6",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "101": [
+                "8714.5",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "102": [
+                "8855.6",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "103": [
+                "9024",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "104": [
+                "9193.2",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "105": [
+                "9384.1",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "106": [
+                "9603.9",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "107": [
+                "9841.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "108": [
+                "10121.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "109": [
+                "10413",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "110": [
+                "10714.6",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "111": [
+                "11077.1",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "112": [
+                "11363.1",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "113": [
+                "11607.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "114": [
+                "11826.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "115": [
+                "12076.4",
+                null,
+                0,
+                "2016M12",
+                null
+              ],
+              "116": [
+                "12276.8",
+                null,
+                0,
+                "2016M12",
+                null
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "structures": [
+      {
+        "dataSets": [
+          0
+        ],
+        "links": [
+          {
+            "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IMF.STA:CPI(5.0.0)",
+            "title": "Dataflow"
+          },
+          {
+            "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.STA:DSD_CPI(5.0.0)",
+            "title": "DataStructureDefinition"
+          }
+        ],
+        "dimensions": {
+          "series": [
+            {
+              "id": "COUNTRY",
+              "keyPosition": 0,
+              "roles": [],
+              "values": [
+                {
+                  "id": "ARG"
+                }
+              ]
+            },
+            {
+              "id": "INDEX_TYPE",
+              "keyPosition": 1,
+              "roles": [],
+              "values": [
+                {
+                  "id": "CPI"
+                }
+              ]
+            },
+            {
+              "id": "COICOP_1999",
+              "keyPosition": 2,
+              "roles": [],
+              "values": [
+                {
+                  "id": "_T"
+                }
+              ]
+            },
+            {
+              "id": "TYPE_OF_TRANSFORMATION",
+              "keyPosition": 3,
+              "roles": [],
+              "values": [
+                {
+                  "id": "IX"
+                }
+              ]
+            },
+            {
+              "id": "FREQUENCY",
+              "keyPosition": 4,
+              "roles": [
+                "FREQ"
+              ],
+              "values": [
+                {
+                  "id": "M"
+                }
+              ]
+            }
+          ],
+          "observation": [
+            {
+              "id": "TIME_PERIOD",
+              "keyPosition": 5,
+              "values": [
+                {
+                  "value": "2016-M12"
+                },
+                {
+                  "value": "2017-M01"
+                },
+                {
+                  "value": "2017-M02"
+                },
+                {
+                  "value": "2017-M03"
+                },
+                {
+                  "value": "2017-M04"
+                },
+                {
+                  "value": "2017-M05"
+                },
+                {
+                  "value": "2017-M06"
+                },
+                {
+                  "value": "2017-M07"
+                },
+                {
+                  "value": "2017-M08"
+                },
+                {
+                  "value": "2017-M09"
+                },
+                {
+                  "value": "2017-M10"
+                },
+                {
+                  "value": "2017-M11"
+                },
+                {
+                  "value": "2017-M12"
+                },
+                {
+                  "value": "2018-M01"
+                },
+                {
+                  "value": "2018-M02"
+                },
+                {
+                  "value": "2018-M03"
+                },
+                {
+                  "value": "2018-M04"
+                },
+                {
+                  "value": "2018-M05"
+                },
+                {
+                  "value": "2018-M06"
+                },
+                {
+                  "value": "2018-M07"
+                },
+                {
+                  "value": "2018-M08"
+                },
+                {
+                  "value": "2018-M09"
+                },
+                {
+                  "value": "2018-M10"
+                },
+                {
+                  "value": "2018-M11"
+                },
+                {
+                  "value": "2018-M12"
+                },
+                {
+                  "value": "2019-M01"
+                },
+                {
+                  "value": "2019-M02"
+                },
+                {
+                  "value": "2019-M03"
+                },
+                {
+                  "value": "2019-M04"
+                },
+                {
+                  "value": "2019-M05"
+                },
+                {
+                  "value": "2019-M06"
+                },
+                {
+                  "value": "2019-M07"
+                },
+                {
+                  "value": "2019-M08"
+                },
+                {
+                  "value": "2019-M09"
+                },
+                {
+                  "value": "2019-M10"
+                },
+                {
+                  "value": "2019-M11"
+                },
+                {
+                  "value": "2019-M12"
+                },
+                {
+                  "value": "2020-M01"
+                },
+                {
+                  "value": "2020-M02"
+                },
+                {
+                  "value": "2020-M03"
+                },
+                {
+                  "value": "2020-M04"
+                },
+                {
+                  "value": "2020-M05"
+                },
+                {
+                  "value": "2020-M06"
+                },
+                {
+                  "value": "2020-M07"
+                },
+                {
+                  "value": "2020-M08"
+                },
+                {
+                  "value": "2020-M09"
+                },
+                {
+                  "value": "2020-M10"
+                },
+                {
+                  "value": "2020-M11"
+                },
+                {
+                  "value": "2020-M12"
+                },
+                {
+                  "value": "2021-M01"
+                },
+                {
+                  "value": "2021-M02"
+                },
+                {
+                  "value": "2021-M03"
+                },
+                {
+                  "value": "2021-M04"
+                },
+                {
+                  "value": "2021-M05"
+                },
+                {
+                  "value": "2021-M06"
+                },
+                {
+                  "value": "2021-M07"
+                },
+                {
+                  "value": "2021-M08"
+                },
+                {
+                  "value": "2021-M09"
+                },
+                {
+                  "value": "2021-M10"
+                },
+                {
+                  "value": "2021-M11"
+                },
+                {
+                  "value": "2021-M12"
+                },
+                {
+                  "value": "2022-M01"
+                },
+                {
+                  "value": "2022-M02"
+                },
+                {
+                  "value": "2022-M03"
+                },
+                {
+                  "value": "2022-M04"
+                },
+                {
+                  "value": "2022-M05"
+                },
+                {
+                  "value": "2022-M06"
+                },
+                {
+                  "value": "2022-M07"
+                },
+                {
+                  "value": "2022-M08"
+                },
+                {
+                  "value": "2022-M09"
+                },
+                {
+                  "value": "2022-M10"
+                },
+                {
+                  "value": "2022-M11"
+                },
+                {
+                  "value": "2022-M12"
+                },
+                {
+                  "value": "2023-M01"
+                },
+                {
+                  "value": "2023-M02"
+                },
+                {
+                  "value": "2023-M03"
+                },
+                {
+                  "value": "2023-M04"
+                },
+                {
+                  "value": "2023-M05"
+                },
+                {
+                  "value": "2023-M06"
+                },
+                {
+                  "value": "2023-M07"
+                },
+                {
+                  "value": "2023-M08"
+                },
+                {
+                  "value": "2023-M09"
+                },
+                {
+                  "value": "2023-M10"
+                },
+                {
+                  "value": "2023-M11"
+                },
+                {
+                  "value": "2023-M12"
+                },
+                {
+                  "value": "2024-M01"
+                },
+                {
+                  "value": "2024-M02"
+                },
+                {
+                  "value": "2024-M03"
+                },
+                {
+                  "value": "2024-M04"
+                },
+                {
+                  "value": "2024-M05"
+                },
+                {
+                  "value": "2024-M06"
+                },
+                {
+                  "value": "2024-M07"
+                },
+                {
+                  "value": "2024-M08"
+                },
+                {
+                  "value": "2024-M09"
+                },
+                {
+                  "value": "2024-M10"
+                },
+                {
+                  "value": "2024-M11"
+                },
+                {
+                  "value": "2024-M12"
+                },
+                {
+                  "value": "2025-M01"
+                },
+                {
+                  "value": "2025-M02"
+                },
+                {
+                  "value": "2025-M03"
+                },
+                {
+                  "value": "2025-M04"
+                },
+                {
+                  "value": "2025-M05"
+                },
+                {
+                  "value": "2025-M06"
+                },
+                {
+                  "value": "2025-M07"
+                },
+                {
+                  "value": "2025-M08"
+                },
+                {
+                  "value": "2025-M09"
+                },
+                {
+                  "value": "2025-M10"
+                },
+                {
+                  "value": "2025-M11"
+                },
+                {
+                  "value": "2025-M12"
+                },
+                {
+                  "value": "2026-M01"
+                },
+                {
+                  "value": "2026-M02"
+                },
+                {
+                  "value": "2026-M03"
+                },
+                {
+                  "value": "2026-M04"
+                },
+                {
+                  "value": "2026-M05"
+                },
+                {
+                  "value": "2026-M06"
+                },
+                {
+                  "value": "2026-M07"
+                },
+                {
+                  "value": "2026-M08"
+                }
+              ]
+            }
+          ]
+        },
+        "measures": {
+          "observation": [
+            {
+              "id": "OBS_VALUE",
+              "roles": []
+            }
+          ]
+        },
+        "attributes": {
+          "dimensionGroup": [
+            {
+              "id": "REPORTING_PERIOD_TYPE",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "TYPE_OF_TRANSFORMATION"
+                ]
+              }
+            },
+            {
+              "id": "TRANSFORMATION",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "TYPE_OF_TRANSFORMATION"
+                ]
+              }
+            },
+            {
+              "id": "UNIT",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "TYPE_OF_TRANSFORMATION"
+                ]
+              }
+            }
+          ],
+          "series": [
+            {
+              "id": "SCALE",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "COUNTRY",
+                  "INDEX_TYPE",
+                  "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION",
+                  "FREQUENCY"
+                ]
+              },
+              "values": [
+                {
+                  "id": "0"
+                }
+              ]
+            },
+            {
+              "id": "DECIMALS_DISPLAYED",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "COUNTRY",
+                  "INDEX_TYPE",
+                  "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION",
+                  "FREQUENCY"
+                ]
+              }
+            },
+            {
+              "id": "OVERLAP",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "COUNTRY",
+                  "INDEX_TYPE",
+                  "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION",
+                  "FREQUENCY"
+                ]
+              },
+              "values": [
+                {
+                  "id": "OL"
+                }
+              ]
+            },
+            {
+              "id": "COMMON_REFERENCE_PERIOD",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "COUNTRY",
+                  "INDEX_TYPE",
+                  "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION",
+                  "FREQUENCY"
+                ]
+              }
+            },
+            {
+              "id": "IFS_FLAG",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "dimensions": [
+                  "COUNTRY",
+                  "INDEX_TYPE",
+                  "COICOP_1999",
+                  "TYPE_OF_TRANSFORMATION",
+                  "FREQUENCY"
+                ]
+              }
+            }
+          ],
+          "observation": [
+            {
+              "id": "PRECISION",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "observation": {}
+              }
+            },
+            {
+              "id": "DERIVATION_TYPE",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "observation": {}
+              },
+              "values": [
+                {
+                  "id": "O"
+                }
+              ]
+            },
+            {
+              "id": "REFERENCE_PERIOD",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "observation": {}
+              }
+            },
+            {
+              "id": "STATUS",
+              "roles": [],
+              "isMandatory": false,
+              "relationship": {
+                "observation": {}
+              }
+            }
+          ]
+        },
+        "annotations": []
+      }
+    ]
+  }
+}
